@@ -20,3 +20,24 @@ sys.version
 3. 
 import time
 time.strftime("%m/%d/%YY %HH:%M")
+
+4.
+# Write a Python program which accepts the radius of a circle from the user and compute the area. Go to the editor
+Sample Output :
+r = 1.1
+Area = 3.8013271108436504
+
+A = 3.14*r*r
+
+5.
+# Write a program which accepts the user's first and last name and print them in reverse order with a space between them
+
+fn = "Yong"
+ln = "Park"
+# get length of string
+for i in range(len(fn), 0, -1):
+	ren_fn = ren_fn + " " + fn[i-1]
+
+print(ren_fn)
+
+6.

@@ -11,7 +11,6 @@ mydict['k'] = 7
 
 # sort key, asc
 sorted_mydict = sorted(mydict.items(), key=operator.itemgetter(0))
-
 # sort key, desc
 sorted_mydict = sorted(mydict.items(), key=operator.itemgetter(0), reverse=true)
 
@@ -42,4 +41,7 @@ dic2={3:30, 4:40}
 dic3={5:50,6:60}
 Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 
-newdict = dic1 + dic2 + dic3
+catdict = {**dic1, **dic2, **dic3}
+
+https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression
+

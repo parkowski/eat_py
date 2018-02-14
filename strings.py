@@ -50,4 +50,5 @@ print(myList)
 del myList[0]
 
 print(myList)
-4.5
+
+truth = 'you'll never eat enough'
